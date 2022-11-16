@@ -1,0 +1,23 @@
+.secao-experiencia {
+    border: 2px solid  red;
+    background-color: #f6f8fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secao-experiencia h1 {
+    color: #32333c;
+}
+
+::before {
+    border-bottom: yellow;
+
+}
+
+.secao-experiencia p {
+    color: #8a8fa3;
+    
+}

@@ -1,0 +1,23 @@
+.container-banner{
+    border: 2px solid red ;
+    display: flex;
+    
+}
+
+.imagem-banner {
+    display: flex;
+    background-image: url('../../../public/assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 341px;
+    border: 2px solid rebeccapurple;
+    width: 50%;
+}
+
+.secao-banner {
+    border: 2px solid yellow;
+    background-color: #fafbfc;
+    
+
+}

@@ -1,0 +1,16 @@
+.imagem-banner {
+    display: flex;
+    background-image: url('../../../public/assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 341px;
+    border: 2px solid rebeccapurple;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.secao-banner {
+
+
+}

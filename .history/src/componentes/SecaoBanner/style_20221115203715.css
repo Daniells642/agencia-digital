@@ -1,0 +1,13 @@
+.imagem-banner {
+    display: flex;
+    background-image: url('public/assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 341px;
+}
+
+.secao-banner {
+
+
+}

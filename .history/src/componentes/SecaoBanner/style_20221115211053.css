@@ -1,0 +1,39 @@
+.container-banner{
+    border: 2px solid red ;
+    display: flex;
+}
+
+.imagem-banner {
+    display: flex;
+    background-image: url('../../../public/assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 341px;
+    width: 50%;
+}
+
+.secao-banner {
+    background-color: #fafbfc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid yellow;
+}
+
+.secao-banner p {
+    color: #022144;
+    font-size: small;
+    }
+
+.secao-banner h1 {
+    color: #022144;
+    font-weight: 200;
+    }
+
+.secao-banner span {
+    color: #022144;
+    font-weight: 900;
+    }

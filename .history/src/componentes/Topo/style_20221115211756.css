@@ -1,0 +1,29 @@
+.container-topo {
+    height: 10vh;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid red ;
+}
+
+.logo{
+    max-height: 35px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    border: 2px solid #747272;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 15px;
+    cursor: pointer
+
+}
+.btn-icone {
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
+}
