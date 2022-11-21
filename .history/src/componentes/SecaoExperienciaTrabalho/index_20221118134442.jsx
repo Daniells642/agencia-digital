@@ -15,7 +15,7 @@ export default function SecaoExperienciaTrabalho() {
                 </p>
             </div>
 
-            <div className="container-cards limitar-secao">
+            <div className="conteiner-cards limitar-secao">
               <Card
                 data="JUNHO 2012 - 2016"
                 titulo="Web Designer"

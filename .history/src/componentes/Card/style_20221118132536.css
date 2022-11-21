@@ -1,0 +1,32 @@
+.secaoCard {
+    background-color: #f6f8fc;
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+
+.secaoCard p {
+    color: #8a8fa3;
+}
+
+.secaoCard h1 {
+    color: #32333c;
+}
+
+
+.card {
+    width: calc(100%/3 - 20px);
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.card:hover {
+    background-color: #feb633;
+    border: #edecec 2px solid;
+}

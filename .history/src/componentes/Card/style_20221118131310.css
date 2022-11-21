@@ -1,0 +1,14 @@
+.secaoCard {
+    background-color: #f6f8fc;
+}
+
+.secaoCard:hover {
+    background-color: #feb633;
+}
+.secaoCard p {
+    color: #8a8fa3;
+}
+
+.secaoCard h1 {
+    color: #32333c;
+}

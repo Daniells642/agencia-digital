@@ -1,3 +1,9 @@
+.container-card {
+  border: #feb633 solid 2px;
+  display: flex;
+  flex-direction: column;
+}
+
 #card {
     width: 33%;
     padding: 70px 30px;

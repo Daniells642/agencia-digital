@@ -7,12 +7,12 @@ import "./App.css";
 
 function App() {
   return (
-    <main>
+    <div>
       <Topo/>
       <SecaoBanner/>
       <SecaoExperienciaTrabalho/>
       <Rodape/>
-    </main>
+    </div>
   );
 }
 

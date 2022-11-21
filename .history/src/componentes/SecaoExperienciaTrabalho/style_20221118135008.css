@@ -13,7 +13,7 @@
 
 #container-texto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     align-items: center;
 
@@ -53,10 +53,4 @@
 
 .container-texto-modo-claro p {
 	color: #8a8fa3;
-}
-
-.container-cards {
-    display: flex;
-    justify-content: center;
-
 }
