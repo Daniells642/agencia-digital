@@ -8,6 +8,7 @@ import iconeBehance from '../../assets/behance.png';
 import iconeGooglePlus from '../../assets/google-plus.png';
 
 export default function Rodape(props) {
+
   return(
     <footer className="rodape-modo-claro">
       <img src={Logo} alt="logomarca"/>

@@ -7,7 +7,8 @@ import iconeDribble from '../../assets/dribble.png';
 import iconeBehance from '../../assets/behance.png';
 import iconeGooglePlus from '../../assets/google-plus.png';
 
-export default function Rodape(props) {
+export default function Rodape() {
+
   return(
     <footer className="rodape-modo-claro">
       <img src={Logo} alt="logomarca"/>
@@ -24,7 +25,7 @@ export default function Rodape(props) {
         <img src={iconeGooglePlus} alt="google plus"/>
       </div>
       <div>
-        <p className="copyright">Copyright 2022 &copy; <span>nome do desenvolvedor</span></p>
+        <p className="copyright">Copyright 2022 &copy; <span>Daniel Lima Sousa</span></p>
       </div>
     </footer>
   )
