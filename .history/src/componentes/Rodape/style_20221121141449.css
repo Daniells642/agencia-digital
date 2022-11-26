@@ -1,0 +1,25 @@
+#rodape {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+#rodape p {
+    font-family: 'Poppins' sans-serif;
+    color: #8a8fa3;
+    padding: 30px auto;
+    margin-top: 20px;
+}
+
+.img-logo {
+    height: auto;
+    width: auto;
+}
+
+.icones img {
+    margin-top: 20px;
+    height: 45px;
+}

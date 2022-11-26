@@ -1,0 +1,18 @@
+#rodape {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.img-logo {
+    height: auto;
+    width: auto;
+}
+
+.icones img {
+    height: 45px;
+}

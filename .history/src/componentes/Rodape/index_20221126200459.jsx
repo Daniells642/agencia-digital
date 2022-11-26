@@ -1,6 +1,12 @@
 import './style.css';
 
-export default function Rodape() {
+import iconeTwitter from '../../assets/twitter.png';
+import iconeLinkedin from '../../assets/linkedin.png';
+import iconeDribble from '../../assets/dribble.png';
+import iconeBehance from '../../assets/behance.png';
+import iconeGooglePlus from '../../assets/google-plus.png';
+
+export default function Rodape(props) {
 
   return(
     <footer className="rodape-modo-claro">
@@ -18,7 +24,7 @@ export default function Rodape() {
         <img src='assets/google-plus.png' alt="google plus"/>
       </div>
       <div>
-        <p className="copyright">Copyright 2022 &copy; <span>Daniel Lima Sousa</span></p>
+        <p className="copyright">Copyright 2022 &copy; <span>nome do desenvolvedor</span></p>
       </div>
     </footer>
   )

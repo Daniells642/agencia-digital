@@ -18,7 +18,7 @@ export default function Rodape() {
         <img src='assets/google-plus.png' alt="google plus"/>
       </div>
       <div>
-        <p className="copyright">Copyright 2022 &copy; <span>Daniel Lima Sousa</span></p>
+        <p className="copyright">Copyright 2022 &copy; <span>nome do desenvolvedor</span></p>
       </div>
     </footer>
   )

@@ -1,0 +1,11 @@
+#rodape {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-logo {
+    height: auto;
+    width: auto;
+}
