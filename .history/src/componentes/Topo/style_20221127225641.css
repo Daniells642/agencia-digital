@@ -18,11 +18,13 @@ button {
     padding: 10px 10px;
     cursor: pointer;
   }
+
+
+
 .btn-icone {
     width: 25px;
     height: 25px;
 }
-
 /*Modo claro*/
 .topo-modo-claro {
     background-color: #fff;
@@ -36,8 +38,8 @@ button {
     cursor: pointer;
     background-color: #fff;
 }
-
 /*Modo escuro*/
+
 .topo-modo-escuro {
     background-color: #252525;
     border-bottom: 1px solid #ffffff0d;

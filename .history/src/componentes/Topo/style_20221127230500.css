@@ -40,7 +40,7 @@ button {
 /*Modo escuro*/
 .topo-modo-escuro {
     background-color: #252525;
-    border-bottom: 1px solid #ffffff0d;
+    border-bottom: 2px solid #ffffff0d;
 }
 .botao-modo-escuro {
     background-color: #252525;

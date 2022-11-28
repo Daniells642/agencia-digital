@@ -14,6 +14,10 @@
     object-fit: cover;
 }
 
+.fundo-modo-claro{
+    background-color: #fff;
+}
+
 .texto-secao-banner {
     width: 50%;
     padding: 0px 20px;
@@ -39,20 +43,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    #imagemFundo {
+    .imagem-banner {
       width: 0;
     }
   
-    .texto-secao-banner{
+    .secaoBanner {
       width: 100%;
     }
 }
 
-/*modo claro*/
-.fundo-modo-claro{
-    background-color: #fff;
-}
 /*modo escuro*/
-.fundo-modo-escuro {
+.container-banner-modo-escuro {
     background-color: #252525;
 }

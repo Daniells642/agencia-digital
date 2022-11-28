@@ -5,28 +5,18 @@ header {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    z-index: 1;
+    
   }
+
+.topo-modo-claro {
+    background-color: #fff;
+}
+
 .logo{
     max-height: 35px;
     padding: 5px;
 }
 
-button {
-    display: flex;
-    align-items: center;
-    padding: 10px 10px;
-    cursor: pointer;
-  }
-.btn-icone {
-    width: 25px;
-    height: 25px;
-}
-
-/*Modo claro*/
-.topo-modo-claro {
-    background-color: #fff;
-}
 .botao-modo-claro {
     display: flex;
     align-items: center;
@@ -35,6 +25,11 @@ button {
     padding: 10px;
     cursor: pointer;
     background-color: #fff;
+}
+
+.btn-icone {
+    width: 25px;
+    height: 25px;
 }
 
 /*Modo escuro*/

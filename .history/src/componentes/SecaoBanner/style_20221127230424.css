@@ -10,8 +10,13 @@
     background-image: url('../../assets/banner.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     object-fit: cover;
+}
+
+.container-banner-modo-claro{
+    display: flex;
+    background-color: #fff;
 }
 
 .texto-secao-banner {
@@ -39,20 +44,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    #imagemFundo {
+    .imagem-banner {
       width: 0;
     }
   
-    .texto-secao-banner{
+    .secaoBanner {
       width: 100%;
     }
 }
 
-/*modo claro*/
-.fundo-modo-claro{
-    background-color: #fff;
-}
 /*modo escuro*/
-.fundo-modo-escuro {
+.container-banner-modo-escuro {
     background-color: #252525;
 }

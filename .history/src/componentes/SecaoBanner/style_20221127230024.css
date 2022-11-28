@@ -2,25 +2,32 @@
     height: 95vh;
     padding-top: 90px;
     display: flex;
-    position: relative;
+    
+  }
+
+.container-banner-modo-claro{
+    display: flex;
+    background-color: #fff;
 }
 
-#imagemFundo {
-    width: 50%;
-    background-image: url('../../assets/banner.png');
-    background-position: center;
+.imagem-banner {
+    display: flex;
+    background-image: url('../../../public/assets/banner.png');
     background-repeat: no-repeat;
     background-size: contain;
-    object-fit: cover;
+    background-position: center;
+    height: 341px;
+    width: 50%;
 }
 
-.texto-secao-banner {
-    width: 50%;
-    padding: 0px 20px;
+.secao-banner {
+    background-color: #fafbfc;
     display: flex;
     flex-direction: column;
+    align-items: left;
     justify-content: center;
-    background-color: #fafbfc;
+    padding: 10px;
+    width: 50%;
 }
 
 .secao-banner p {
@@ -39,20 +46,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    #imagemFundo {
+    .imagem-banner {
       width: 0;
     }
   
-    .texto-secao-banner{
+    .secaoBanner {
       width: 100%;
     }
 }
 
-/*modo claro*/
-.fundo-modo-claro{
-    background-color: #fff;
-}
 /*modo escuro*/
-.fundo-modo-escuro {
+.container-banner-modo-escuro {
     background-color: #252525;
 }

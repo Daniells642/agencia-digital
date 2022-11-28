@@ -5,9 +5,9 @@ import iconeLua from '../../assets/moon.png';
 
 export default function Topo(props) {
     return (
-      <header className={props.ehTemaEscuro ? "topo-modo-escuro" : "topo-modo-claro"}>
+      <header className={props.ehTemaEscuro ? "container-topo-modo-escuro" : "container-topo-modo-claro"}>
             <img className="logo" src={Logo} alt="Logotipo"/>
-            <button onClick={props.alterarTema} className={props.ehTemaEscuro ? 'botao-modo-escuro' : 'botao-modo-claro'}>
+            <button onClick={props.alterarTema} className={props.ehTemaEscuro ? 'btn-icone-modo-escuro' : 'botao-modo-claro'}>
                 <img className="btn-icone" src={props.ehTemaEscuro ? iconeSol : iconeLua} alt="ícone para alterar o tema"/>
             </button>
       </header>

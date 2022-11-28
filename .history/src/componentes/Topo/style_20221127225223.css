@@ -7,26 +7,16 @@ header {
     position: fixed;
     z-index: 1;
   }
+
+.topo-modo-claro {
+    background-color: #fff;
+}
+
 .logo{
     max-height: 35px;
     padding: 5px;
 }
 
-button {
-    display: flex;
-    align-items: center;
-    padding: 10px 10px;
-    cursor: pointer;
-  }
-.btn-icone {
-    width: 25px;
-    height: 25px;
-}
-
-/*Modo claro*/
-.topo-modo-claro {
-    background-color: #fff;
-}
 .botao-modo-claro {
     display: flex;
     align-items: center;
@@ -37,13 +27,26 @@ button {
     background-color: #fff;
 }
 
+.btn-icone {
+    width: 25px;
+    height: 25px;
+}
+
 /*Modo escuro*/
-.topo-modo-escuro {
+.container-topo-modo-escuro {
+    height: 10vh;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #252525;
-    border-bottom: 1px solid #ffffff0d;
 }
 .botao-modo-escuro {
-    background-color: #252525;
-    border-radius: 25px;
+    display: flex;
+    align-items: center;
     border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #252525;
 }

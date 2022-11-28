@@ -10,17 +10,24 @@
     background-image: url('../../assets/banner.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     object-fit: cover;
 }
 
-.texto-secao-banner {
-    width: 50%;
-    padding: 0px 20px;
+.container-banner-modo-claro{
+    display: flex;
+    background-color: #fff;
+}
+
+
+.secao-banner {
+    background-color: #fafbfc;
     display: flex;
     flex-direction: column;
+    align-items: left;
     justify-content: center;
-    background-color: #fafbfc;
+    padding: 10px;
+    width: 50%;
 }
 
 .secao-banner p {
@@ -39,20 +46,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    #imagemFundo {
+    .imagem-banner {
       width: 0;
     }
   
-    .texto-secao-banner{
+    .secaoBanner {
       width: 100%;
     }
 }
 
-/*modo claro*/
-.fundo-modo-claro{
-    background-color: #fff;
-}
 /*modo escuro*/
-.fundo-modo-escuro {
+.container-banner-modo-escuro {
     background-color: #252525;
 }

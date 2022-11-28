@@ -1,0 +1,38 @@
+.container-topo-modo-claro {
+    height: 10vh;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo{
+    max-height: 35px;
+    padding: 5px;
+}
+
+.botao-modo-claro {
+    display: flex;
+    align-items: center;
+    border: 2px solid #747272;
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff
+}
+
+.btn-icone {
+    width: 25px;
+    height: 25px;
+}
+
+/*Modo escuro*/
+.container-topo-modo-escuro {
+    background-color: #252525;
+}
+
+.botao-modo-escuro {
+    border: 2px solid #fff;
+    background-color: #252525;
+}

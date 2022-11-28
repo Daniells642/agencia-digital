@@ -2,7 +2,7 @@ import './style.css';
 
 export default function SecaoBanner(props) {
     return (
-            <section id='secaoBanner'>
+            <section id='secaoBanner' className=''>
 
               <div id='imagemFundo' className={props.ehTemaEscuro ? 'fundo-modo-escuro' : 'fundo-modo-claro'}> </div>
             

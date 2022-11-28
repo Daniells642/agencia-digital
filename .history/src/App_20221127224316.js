@@ -18,7 +18,7 @@ function App() {
   return (
     <main>
       <Topo alterarTema={alterarTema} ehTemaEscuro={ehTemaEscuro} />
-      <SecaoBanner alterarTema={alterarTema} ehTemaEscuro={ehTemaEscuro} />
+      <SecaoBanner/>
       <SecaoExperienciaTrabalho/>
       <Rodape/>
     </main>

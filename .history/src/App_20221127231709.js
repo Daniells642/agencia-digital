@@ -9,7 +9,7 @@ import React, { useState } from 'react';
 
 function App() {
 
-  const [ehTemaEscuro, setTemaEscuro] = useState(false)
+  const [ehTemaEscuro, setTemaEscuro] = useState(true)
 
   const alterarTema = () => {
     setTemaEscuro(!ehTemaEscuro)

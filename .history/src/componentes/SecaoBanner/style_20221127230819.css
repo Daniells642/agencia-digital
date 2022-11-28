@@ -39,11 +39,11 @@
 }
 
 @media screen and (max-width: 768px) {
-    #imagemFundo {
+    .imagem-banner {
       width: 0;
     }
   
-    .texto-secao-banner{
+    .secaoBanner {
       width: 100%;
     }
 }

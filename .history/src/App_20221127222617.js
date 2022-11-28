@@ -9,7 +9,7 @@ import React, { useState } from 'react';
 
 function App() {
 
-  const [ehTemaEscuro, setTemaEscuro] = useState(false)
+  const [ehTemaEscuro, setTemaEscuro] = useStateState(false)
 
   const alterarTema = () => {
     setTemaEscuro(!ehTemaEscuro)
@@ -18,7 +18,7 @@ function App() {
   return (
     <main>
       <Topo alterarTema={alterarTema} ehTemaEscuro={ehTemaEscuro} />
-      <SecaoBanner alterarTema={alterarTema} ehTemaEscuro={ehTemaEscuro} />
+      <SecaoBanner/>
       <SecaoExperienciaTrabalho/>
       <Rodape/>
     </main>
