@@ -23,10 +23,12 @@ footer {
     padding: 0px 10px;
     margin-bottom: 50px;
   }
+  
   .iconesRodape img {
     width: 45px;
     cursor: pointer;
   }
+  
   .copyright {
     width: 100%;
     font-size: 15px;

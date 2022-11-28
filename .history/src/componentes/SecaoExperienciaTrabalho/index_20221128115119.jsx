@@ -4,10 +4,12 @@ import './style.css';
 export default function SecaoExperienciaTrabalho(props) {
     return (
       <section id='secao-experiencia' className={props.ehTemaEscuro ? 'secao-modo-escuro' : 'secao-modo-claro'}>
-
-            <div id='container-texto' className={props.ehTemaEscuro ? 'texto-modo-escuro' : 'texto-modo-claro'}>
-                <h1>Experiências De Trabalho</h1>
-                <p> Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
+            <div id='container-texto' className="texto-modo-claro">
+                <h1>
+                Experiências De Trabalho
+                </h1>
+                <p>
+                Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
                 Sites e Marketing Digital, nos empenhamos diariamente para entregar
                 resultados que tragam impacto aos nossos clientes.
                 </p>

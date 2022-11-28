@@ -24,7 +24,7 @@ export default function Rodape(props) {
         <img src={iconeGooglePlus} alt="google plus"/>
       </div>
       <div className={props.ehTemaEscuro ? 'borda-rodape-escuro' : ''}>
-        <p className="copyright">Copyright 2022 &copy; <span>Daniel Lima Sousa</span></p>
+        <p className="copyright">Copyright 2022 &copy; <span>nome do desenvolvedor</span></p>
       </div>
     </footer>
   )
