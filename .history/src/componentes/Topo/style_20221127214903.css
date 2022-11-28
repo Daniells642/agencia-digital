@@ -19,12 +19,12 @@
     border-radius: 25px;
     padding: 10px;
     cursor: pointer;
-    background-color: #fff
 }
 
 .btn-icone-modo-claro {
     width: 25px;
     height: 25px;
+    margin-right: 10px;
 }
 
 /*Modo escuro*/

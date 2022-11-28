@@ -59,6 +59,7 @@
     justify-content: center;
 
 }
+
 @media screen and (max-width: 768px) {
     .container-cards {
       flex-direction: column;
@@ -66,7 +67,7 @@
   }
 
 /*modo escuro*/
-.secao-modo-escuro {
+.secao-modo-claro {
 	background-color: #393838;
 }
 .container-texto-modo-escuro h1{

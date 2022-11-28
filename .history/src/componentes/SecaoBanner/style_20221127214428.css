@@ -1,6 +1,5 @@
-.container-banner-modo-claro{
+.container-banner{
     display: flex;
-    background-color: #fff;
 }
 
 .imagem-banner {
@@ -8,7 +7,7 @@
     background-image: url('../../../public/assets/banner.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: left;
     height: 341px;
     width: 50%;
 }
@@ -17,7 +16,7 @@
     background-color: #fafbfc;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     padding: 10px;
     width: 50%;
@@ -49,6 +48,8 @@
 }
 
 /*modo escuro*/
-.container-banner-modo-escuro {
+
+.img-darkMode {
     background-color: #252525;
+
 }

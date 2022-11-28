@@ -1,6 +1,5 @@
-.container-banner-modo-claro{
+.container-banner{
     display: flex;
-    background-color: #fff;
 }
 
 .imagem-banner {
@@ -14,10 +13,10 @@
 }
 
 .secao-banner {
-    background-color: #fafbfc;
+    background-color: rebeccapurple;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     padding: 10px;
     width: 50%;
@@ -49,6 +48,7 @@
 }
 
 /*modo escuro*/
-.container-banner-modo-escuro {
+
+.img-darkMode {
     background-color: #252525;
 }

@@ -1,4 +1,5 @@
 #secao-experiencia {
+    background-color: #f6f8fc;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,6 +60,7 @@
     justify-content: center;
 
 }
+
 @media screen and (max-width: 768px) {
     .container-cards {
       flex-direction: column;
@@ -66,10 +68,14 @@
   }
 
 /*modo escuro*/
-.secao-modo-escuro {
-	background-color: #393838;
+
+
+
+  .secao-darkMode {
+    background-color: #393838;
 }
-.container-texto-modo-escuro h1{
+
+  .container-texto-modo-escuro h1{
     color: #CCCCCC;
 }
 

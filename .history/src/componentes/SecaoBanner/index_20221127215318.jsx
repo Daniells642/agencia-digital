@@ -2,7 +2,7 @@ import './style.css';
 
 export default function SecaoBanner() {
     return (
-            <div className='container-banner-modo-claro'>
+            <div className='container-banner'>
               <section className="imagem-banner"> </section>
             
               <section className="secao-banner">

@@ -7,7 +7,7 @@
 }
 
 .secao-modo-claro {
-	background-color: #f6f8fc;
+	background-color: red;
 }
 
 #container-texto {
@@ -59,6 +59,7 @@
     justify-content: center;
 
 }
+
 @media screen and (max-width: 768px) {
     .container-cards {
       flex-direction: column;
@@ -66,10 +67,14 @@
   }
 
 /*modo escuro*/
-.secao-modo-escuro {
-	background-color: #393838;
+
+
+
+  .secao-darkMode {
+    background-color: #393838;
 }
-.container-texto-modo-escuro h1{
+
+  .container-texto-modo-escuro h1{
     color: #CCCCCC;
 }
 
