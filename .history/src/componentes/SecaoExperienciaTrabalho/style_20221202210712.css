@@ -13,6 +13,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+
 }
 
 #container-texto h1 {
@@ -33,6 +34,7 @@
     width: 100px;
     height: 4px;
     background-color: #feb633;
+
 }
 
 #container-texto p {
@@ -41,16 +43,14 @@
     max-width: 770px;
     margin-bottom: 70px;
 }
+
+
+
 .container-cards {
     display: flex;
     justify-content: center;
 
 }
-.limitar-secao {
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
-  }
 @media screen and (max-width: 768px) {
     .container-cards {
       flex-direction: column;

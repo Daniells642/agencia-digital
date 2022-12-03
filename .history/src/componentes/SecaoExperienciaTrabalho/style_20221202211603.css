@@ -13,6 +13,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+
 }
 
 #container-texto h1 {
@@ -33,6 +34,7 @@
     width: 100px;
     height: 4px;
     background-color: #feb633;
+
 }
 
 #container-texto p {
