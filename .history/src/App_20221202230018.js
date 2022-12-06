@@ -19,7 +19,7 @@ function App() {
     <main>
       <Topo alterarTema={alterarTema} ehTemaEscuro={ehTemaEscuro} />
       <SecaoBanner ehTemaEscuro={ehTemaEscuro} />
-      <SecaoExperienciaTrabalho ehTemaEscuro={ehTemaEscuro} />
+      <SecaoExperienciaTrabalho  />
       <Rodape ehTemaEscuro={ehTemaEscuro} />
     </main>
   );

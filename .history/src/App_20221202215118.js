@@ -1,11 +1,9 @@
-import Rodape from "./componentes/Rodape";
-import SecaoExperienciaTrabalho from "./componentes/SecaoExperienciaTrabalho";
+import React, { useState } from 'react';
 import Topo from "./componentes/Topo";
 import SecaoBanner from "./componentes/SecaoBanner";
+import SecaoExperienciaTrabalho from "./componentes/SecaoExperienciaTrabalho";
+import Rodape from "./componentes/Rodape";
 import "./App.css";
-import React, { useState } from 'react';
-
-
 
 function App() {
 

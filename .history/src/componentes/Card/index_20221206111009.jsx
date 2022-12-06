@@ -1,6 +1,7 @@
 import './style.css';
 
 export default function Card(props) {
+      let temaAtual = props.ehTemaEscuro;
       
     return (
       <div id="card" className={props.ehTemaEscuro ? 'card-modo-escuro' : 'card-modo-claro'}>

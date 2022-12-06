@@ -2,6 +2,7 @@ import './style.css';
 
 export default function Card(props) {
       
+
     return (
       <div id="card" className={props.ehTemaEscuro ? 'card-modo-escuro' : 'card-modo-claro'}>
         <p className="primeiroParagrafo">{props.data}</p>
